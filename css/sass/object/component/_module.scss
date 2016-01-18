@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/*------------------------------------
+module
+-------------------------------------*/
+
+
+/* logo
+--------------------------------------*/
+.c-logo{
+	position: absolute;
+	display: block;
+	width: 153px;
+  height: 92px;
+	top: 30px;
+	left: 0px;
+	z-index: 5;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+.c-logo > a{
+	background: url(/images/share/logo.png) no-repeat;
+	background-size: 153px, 92px;
+	display: block;
+	width: 100%;
+	height: 100%;	
+}
+
+/* scroll
+--------------------------------------*/
+.c-scrollDown{
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	right:0;
+	margin:0 auto;
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+
+.c-scrollDown i{
+	color: #333;
+	width: 36px;
+	height: 36px;
+	font-size: 2.6rem;
+	padding-top: 5px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.c-scrollDown i:hover{
+	color: #fff;
+}
+
+/* firstView
+--------------------------------------*/
+.c-mainview{
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 100vh;
+	color:#fff;
+}
+
+.c-mainview--about{
+	background: url(/images/about/about_bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	background-position: 50% 0;
+}
+
+.c-mainview--works{
+	background: url(/images/works/works_bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.c-mainview__inner{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	background-color: #000;
+	opacity: .6;
+}
+
+.c-mainview__inner--top{
+	background-color: rgba(0,0,0,.2);
+	z-index: -1;
+}
+
+.c-mainvisual__container{
+	height: 100%;
+	display: table;
+	position: relative;
+}
+
+.c-mainvisual__title{
+	color: #fff;
+	font-size: 5.6rem;
+}
+
+.c-mainvisual__lead{
+	font-size: 2.2rem;
+	letter-spacing: 2px;
+	padding-top: 10px;
+}
+
+.c-mainvisual__content{
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 60px;
+}
+
+.c-mainvisual__lead{
+	width: 1100px;
+}
+
+.c-mainvisual__lead--works{
+	font-size: 2rem;
+	padding-top: 20px;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

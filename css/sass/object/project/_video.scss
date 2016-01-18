@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* video
+---------------------------------*/
+.p-video {
+	overflow: hidden;
+	position: relative;
+}
+
+ #video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: auto;
+	z-index: -2;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.p-video__content {
+	position: relative;
+	z-index: 1;
+	top:40%;
+}
+
+.p-video__title{
+	color: #ffffff;
+	font-size: 6rem;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.p-video__lead{
+	color: #ffffff;
+	font-size: 2rem;
+	padding-top: 16px;
+	text-align: center;
+	letter-spacing: 1px;
+}

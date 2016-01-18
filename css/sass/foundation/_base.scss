@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	color: $color-base;
+	font-size: $font-size-base;
+	font-family: 'Lora', "Helvetica", "Arial", "Hiragino Kaku Gothic ProN", 'ヒラギノ角ゴ ProN W3', Meiryo, sans-serif;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active{
+	color: $color-base;
+	text-decoration: none;
+}
+
+img{
+	vertical-align: bottom;
+}
+
+.clearfix::after{
+	content:'';
+	display: block;
+	clear: both;
+}
